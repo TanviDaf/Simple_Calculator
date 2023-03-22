@@ -1,0 +1,19 @@
+.container{max-width: 400px;margin: 10vh auto 0 auto;background-color: rgb(20, 4, 38);}
+#display{text-align: center;height: 70px;line-height: 10px;padding-top: 30px;color:whitesmoke;font-size: 30px;font-weight: bold;}
+.buttons{display:grid;border-bottom: 1px solid #999;border-left: 1px soild #999;grid-template-columns: 1fr 1fr 1fr 1fr;color: whitesmoke;text-align:center;}
+.buttons{border-top: 1px solid #999;border-right: 1px solid #999;}
+.button{border: 0.5px solid #999;line-height: 100px;font-size: 30px;cursor:pointer;}
+#equal {
+    background-color: rgb(92, 197, 40);
+}
+
+.button:hover {
+    
+    background-color: #ebcef6b4;
+    color: rgb(4, 4, 4);
+    font-weight: 1000;
+    transition: 0.2s ease-in-out;
+}
+
+
+
